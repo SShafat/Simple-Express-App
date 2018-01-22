@@ -48,9 +48,9 @@ app.post('/', link, function(req, res) {
 ////
 ////});
 
-//var server = app.listen(7777, listening);
-//
-//
-//function listening(){
-//    console.log("Now listening on port 7777")
-//}
+var server = app.listen(7777, listening);
+
+
+function listening(){
+   console.log("Now listening on port 7777")
+}
